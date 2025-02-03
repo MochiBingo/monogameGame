@@ -21,14 +21,14 @@ namespace monogameGame
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
-        public bool isColliding(gameEntity entityCheck)
-        {
-            foreach (var entity in gameEntities)
-            {
-                if (entity == entityCheck) continue;
-                if (entity ==)
-            }
-        }
+        //public bool isColliding(gameEntity entityCheck)
+        //{
+        //    foreach (var entity in gameEntities)
+        //    {
+        //        if (entity == entityCheck) continue;
+        //        if (entity ==)
+        //    }
+        //}
         protected override void Initialize()
         {
             Window.AllowUserResizing = true;

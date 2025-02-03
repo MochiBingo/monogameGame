@@ -16,7 +16,6 @@ namespace monogameGame
         protected float speed;
         protected GameManager gameManager;
         protected Vector2 movementDirection;
-        public Rectangle;
 
         public gameEntity(GameManager game, Vector2 initialPosition)
         {
